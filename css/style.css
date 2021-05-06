@@ -62,7 +62,7 @@ main{
     border-color: rgb(230, 230, 230);
     border-style: solid;
     width: 36.2rem;
-    height: 2.8rem;
+    height: 2.6rem;
     margin:auto;
     border-radius: 1.4rem;
     display: flex;
@@ -72,16 +72,24 @@ main{
 .search_icon img{
     width: 0.9rem;
     position: relative;
-    left: -17px;
+    top: 1px;
+    left: 15px;
+}
+.micro_icon img{
+    width: 3rem;
+    position: relative;
+    right: 2px;
+    top: 1px;
 }
 .main__input--container input{
     outline: none;
     width: 31rem;
     height: 2rem;
     border-width: 0;
+    margin-left: 2rem;
 }
 .main__input--container:hover{
-    box-shadow: 0 2px 5px rgb(180, 180, 180);
+    box-shadow: 0 2px 5px rgb(201, 201, 201);
 }
 .main__buttons{
     display: flex;
